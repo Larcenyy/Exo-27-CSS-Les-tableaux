@@ -1,0 +1,45 @@
+table{
+    border: 2px solid black;
+}
+
+tr th{
+    width: 40px;
+    border: 2px solid black;
+    height: 20px;
+}
+
+.test1{
+    border-collapse: separate;
+    empty-cells: hide;
+}
+
+.test2{
+    margin-top: 2rem;
+    border-collapse: separate;
+    empty-cells: show;
+}
+.test2 caption{
+    caption-side: bottom;
+}
+
+.test3{
+    margin-top: 2rem;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+.test4{
+    margin-top: 2rem;
+    empty-cells: hide;
+    border-collapse: collapse;
+}
+.test4 caption{
+    caption-side: bottom;
+}
+
+th:nth-child(2n){
+    background: #594c4c;
+}
+th:nth-child(2n):first-letter{
+    color:greenyellow;
+}
